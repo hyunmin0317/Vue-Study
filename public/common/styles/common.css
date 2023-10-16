@@ -74,3 +74,9 @@ button:focus{outline: none;}
 .blind{display: none;overflow: hidden;position: absolute;width: 0;height: 0;padding: 0;margin: 0; font-size: 0;line-height: 0; text-indent: -9999em;visibility: hidden;outline: none;z-index: -1;}
 .link{cursor: pointer;}
 .flexbox{display: flex; }
+.contentbox {
+     width: 100%;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
