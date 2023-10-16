@@ -1,3 +1,10 @@
 <template>
-    <header>상단 영역</header>
+    <header>
+        <div class="topmenu">
+            <div class="contentbox"></div>
+        </div>
+        <nav>
+            <div class="contentbox"></div>
+        </nav>
+    </header>
 </template>
