@@ -6,8 +6,8 @@
 
 ## :book: 스터디 자료
 
-* ### [Vue.js Documentation](https://v3-docs.vuejs-korea.org/)
-* ### [Do it! 프런트엔드 UI 개발 with Vue.js](https://doit-sample.netlify.app/main)
+* #### [Vue.js Documentation](https://v3-docs.vuejs-korea.org/)
+* #### [Do it! 프런트엔드 UI 개발 with Vue.js](https://doit-sample.netlify.app/main)
 
 ## :notebook_with_decorative_cover: Tech Stack
 
