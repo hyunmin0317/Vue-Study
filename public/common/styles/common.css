@@ -439,3 +439,38 @@ footer {
      font-size: 18px;
      color: #ababab;
 }
+.tapcontent {
+     max-width: 1200px;
+     margin: 0 auto;
+}
+.tap {
+     margin: 40px 100px;
+     display: flex;
+     text-align: center;
+     justify-content: space-evenly;
+}
+.btn-tap {
+     display: inline-block;
+     height: 40px;
+     line-height: 40px;
+     font-size: 18px;
+     color: #888;
+     font-weight: 700;
+     position: relative;
+}
+.btn-tap::after {
+     content: "";
+     display: block;
+     width: 0;
+     height: 2px;
+     background: #222;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+}
+.btn-tap.active {
+     color: #222;
+}
+.btn-tap.active::after {
+     width: 100%;
+}
