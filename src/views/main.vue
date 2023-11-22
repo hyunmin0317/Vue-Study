@@ -12,6 +12,13 @@
                     <b-button variant="tap">사진 예술</b-button>
                     <b-button variant="tap">데이터 과학</b-button>
                 </div>
+                <VueSlickCarousel class="mainslider">
+                    <div class="rollimg" v-for="(item, index) in Newbooks" :key="index">
+                        <span class="imgbox"><img :src="item.imgurl" /></span>
+                        <strong v-html="item.name"></strong>
+                        <span class="textbox" v-html="item.subdec"></span>
+                    </div>
+                </VueSlickCarousel>
             </div>
         </section>
         <section class="searchbook">
@@ -25,3 +32,18 @@
         </section>
     </section>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            Newbooks: [
+                {
+                    imgurl: "/images/books_image/book01.jpg",
+                    name: "Do it! 웹 사이트 따라 만들기",
+                    subdec: "HTML, CSS, 자바스크립트 문법서는 공부했지만, 웹사이트를..."
+                },
+            ],
+        };
+    },
+};
+</script>
