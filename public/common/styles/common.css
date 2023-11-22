@@ -414,3 +414,28 @@ footer {
 .form-group:nth-of-type(4) .d-block::before {
      content: "\F890";
 }
+.mainbanner {
+     height: 350px;
+     overflow: hidden;
+     text-align: center;
+}
+.mainbanner > img {
+     height: 350px;
+}
+.netbook {
+     background: url("/images/content_bg.png") repeat-x;
+     padding: 40px 0;
+}
+.maintit {
+     margin-bottom: 20px;
+     font-size: 38px;
+     color: #222;
+     font-weight: 900;
+     text-align: center;
+}
+.maintit > span {
+     display: block;
+     margin-top: 10px;
+     font-size: 18px;
+     color: #ababab;
+}
