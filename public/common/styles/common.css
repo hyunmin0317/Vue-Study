@@ -510,3 +510,26 @@ footer {
      font-size: 13px;
      color: #ababab;
 }
+@media screen and (max-width: 767px) {
+     .tapcontent {
+          padding: 0 10px;
+     }
+     .maintit {
+          font-size: 26px;
+     }
+     .maintit > span {
+          font-size: 14px;
+          margin-top: 0px;
+     }
+     .tap {
+          margin: 20px 0;
+     }
+     .btn-tap {
+          height: 20px;
+          line-height: 20px;
+          font-size: 14px;
+     }
+     .mainslider {
+          margin: 0;
+     }
+}
