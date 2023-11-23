@@ -170,7 +170,14 @@ export default {
             this.Newbooks = this[contents];
             document.querySelector(".active").classList.remove("active");
             event.target.classList.add("active");
-        }
+        },
+        gotoPage(url) {
+            if (url == "/classsample") {
+                this.$router.push(url);
+            } else {
+                window.open(url, "_blank");
+            }
+        },
     },
     computed: {
         autocomplate() {
