@@ -24,9 +24,21 @@
 </template>
 <script>
 import Subpage from "@/layout/components/Subpage.vue";
+import BookDetail1 from "./BookDetail1.vue";
+import BookDetail2 from "./BookDetail2.vue";
+import BookDetail3 from "./BookDetail3.vue";
+import BookDetail4 from "./BookDetail4.vue";
+import BookDetail5 from "./BookDetail5.vue";
+import BookDetail6 from "./BookDetail6.vue";
+import BookDetail7 from "./BookDetail7.vue";
+import BookDetail8 from "./BookDetail8.vue";
+import BookDetail9 from "./BookDetail9.vue";
+import BookDetail10 from "./BookDetail10.vue";
 export default {
     components: {
         Subpage,
+        BookDetail1,BookDetail2,BookDetail3,BookDetail4,
+        BookDetail5,BookDetail6,BookDetail7,BookDetail8,BookDetail9,BookDetail10
     },
     mounted() {
         if (!this.$route.query.tabId) {
@@ -70,6 +82,8 @@ export default {
                 ],
             },
             componentslist: [
+                BookDetail1,BookDetail2,BookDetail3,BookDetail4,
+                BookDetail5,BookDetail6,BookDetail7,BookDetail8,BookDetail9,BookDetail10
             ],
             tabIndex: 0,
         };
